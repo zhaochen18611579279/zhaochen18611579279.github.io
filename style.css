@@ -1,0 +1,83 @@
+#title {
+  background-color: rgb(80, 184, 167);
+  border-radius: 10px;
+  padding: 15px;
+}
+h1 {
+  font-family: verdana;
+  color: white;
+  font-size: 40px;
+}
+
+#GCP-icon {
+  position: absolute;
+  width: 20%;
+  height: auto;
+  right: 0px;
+  top: 3px;
+}
+
+p {
+  font-family: verdana;
+}
+
+h2 {
+  font-size: 14px;
+  color: rgb(80, 90, 184);
+  padding-top: 5px;
+}
+
+body {
+  font-family: verdana;
+}
+
+iframe {
+  position: absolute;
+  float: none;
+  right: 0px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+#questions {
+  width: 50%;
+  padding: 15px;
+  margin: 5px;
+}
+.question {
+  margin: 5px;
+  padding: 10px;
+  border-radius: 30px;
+}
+.question:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.3s;
+}
+
+#submitButton {
+  position: absolute;
+  background-color: #f4511e;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  align-self: center;
+  font-size: 16px;
+  margin: 10px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  right: 40%;
+  border-radius: 10px;
+}
+
+#submitButton:hover {
+  opacity: 1;
+  border-radius: 10px;
+}
+
+#signature {
+  position: absolute;
+  bottom: 0px;
+}
