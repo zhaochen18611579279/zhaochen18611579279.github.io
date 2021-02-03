@@ -11,8 +11,8 @@ h1 {
 
 #GCP-icon {
   position: absolute;
-  width: 20%;
-  height: auto;
+  width: auto;
+  height: 100pt;
   right: 0px;
   top: 3px;
 }
@@ -37,6 +37,8 @@ iframe {
   right: 0px;
   padding: 15px;
   border-radius: 10px;
+  width: 45%;
+  height: 25%;
 }
 
 #questions {
@@ -80,4 +82,19 @@ iframe {
 #signature {
   position: absolute;
   bottom: 0px;
+  right: 10px;
+}
+
+#GCP-UI {
+  position: absolute;
+  top: 300pt;
+  right: 10px;
+  width: 45%;
+}
+
+#page-link {
+  font-family: verdana;
+  position: absolute;
+  right: 10px;
+  bottom: 40pt;
 }
